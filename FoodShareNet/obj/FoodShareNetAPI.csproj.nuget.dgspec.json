@@ -1,0 +1,316 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/bobel./Desktop/cognizanr/FoodShareNet-WebAPI/FoodShareNet/FoodShareNetAPI.csproj": {}
+  },
+  "projects": {
+    "/Users/bobel./Desktop/cognizanr/FoodShareNet-WebAPI/Application/FoodShareNet.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bobel./Desktop/cognizanr/FoodShareNet-WebAPI/Application/FoodShareNet.Application.csproj",
+        "projectName": "FoodShareNet.Application",
+        "projectPath": "/Users/bobel./Desktop/cognizanr/FoodShareNet-WebAPI/Application/FoodShareNet.Application.csproj",
+        "packagesPath": "/Users/bobel./.nuget/packages/",
+        "outputPath": "/Users/bobel./Desktop/cognizanr/FoodShareNet-WebAPI/Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bobel./.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/bobel./Desktop/cognizanr/FoodShareNet-WebAPI/Domain/FoodShareNet.Domain.csproj": {
+                "projectPath": "/Users/bobel./Desktop/cognizanr/FoodShareNet-WebAPI/Domain/FoodShareNet.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/bobel./Desktop/cognizanr/FoodShareNet-WebAPI/Domain/FoodShareNet.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bobel./Desktop/cognizanr/FoodShareNet-WebAPI/Domain/FoodShareNet.Domain.csproj",
+        "projectName": "FoodShareNet.Domain",
+        "projectPath": "/Users/bobel./Desktop/cognizanr/FoodShareNet-WebAPI/Domain/FoodShareNet.Domain.csproj",
+        "packagesPath": "/Users/bobel./.nuget/packages/",
+        "outputPath": "/Users/bobel./Desktop/cognizanr/FoodShareNet-WebAPI/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bobel./.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/bobel./Desktop/cognizanr/FoodShareNet-WebAPI/FoodShareNet/FoodShareNetAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bobel./Desktop/cognizanr/FoodShareNet-WebAPI/FoodShareNet/FoodShareNetAPI.csproj",
+        "projectName": "FoodShareNetAPI",
+        "projectPath": "/Users/bobel./Desktop/cognizanr/FoodShareNet-WebAPI/FoodShareNet/FoodShareNetAPI.csproj",
+        "packagesPath": "/Users/bobel./.nuget/packages/",
+        "outputPath": "/Users/bobel./Desktop/cognizanr/FoodShareNet-WebAPI/FoodShareNet/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bobel./.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/bobel./Desktop/cognizanr/FoodShareNet-WebAPI/Application/FoodShareNet.Application.csproj": {
+                "projectPath": "/Users/bobel./Desktop/cognizanr/FoodShareNet-WebAPI/Application/FoodShareNet.Application.csproj"
+              },
+              "/Users/bobel./Desktop/cognizanr/FoodShareNet-WebAPI/Domain/FoodShareNet.Domain.csproj": {
+                "projectPath": "/Users/bobel./Desktop/cognizanr/FoodShareNet-WebAPI/Domain/FoodShareNet.Domain.csproj"
+              },
+              "/Users/bobel./Desktop/cognizanr/FoodShareNet-WebAPI/Repository/FoodShareNet.Repository.csproj": {
+                "projectPath": "/Users/bobel./Desktop/cognizanr/FoodShareNet-WebAPI/Repository/FoodShareNet.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.19.6, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.18, 7.0.18]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[7.0.18, 7.0.18]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.18, 7.0.18]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/bobel./Desktop/cognizanr/FoodShareNet-WebAPI/Repository/FoodShareNet.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bobel./Desktop/cognizanr/FoodShareNet-WebAPI/Repository/FoodShareNet.Repository.csproj",
+        "projectName": "FoodShareNet.Repository",
+        "projectPath": "/Users/bobel./Desktop/cognizanr/FoodShareNet-WebAPI/Repository/FoodShareNet.Repository.csproj",
+        "packagesPath": "/Users/bobel./.nuget/packages/",
+        "outputPath": "/Users/bobel./Desktop/cognizanr/FoodShareNet-WebAPI/Repository/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bobel./.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/bobel./Desktop/cognizanr/FoodShareNet-WebAPI/Application/FoodShareNet.Application.csproj": {
+                "projectPath": "/Users/bobel./Desktop/cognizanr/FoodShareNet-WebAPI/Application/FoodShareNet.Application.csproj"
+              },
+              "/Users/bobel./Desktop/cognizanr/FoodShareNet-WebAPI/Domain/FoodShareNet.Domain.csproj": {
+                "projectPath": "/Users/bobel./Desktop/cognizanr/FoodShareNet-WebAPI/Domain/FoodShareNet.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
